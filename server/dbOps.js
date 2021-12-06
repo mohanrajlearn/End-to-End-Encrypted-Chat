@@ -4,7 +4,7 @@ import mongodb from 'mongodb'
 const { MongoClient, ObjectId } = mongodb;
 
 const { URI_TO_CONNECT_MONGODB, DB_NAME, COLLECTION_ROOMS, COLLECTION_USERS, SUCCESS, SERVER_ERR } = process.env
-// const URI_TO_CONNECT_MONGODB = "mongodb+srv://root:root123@anijitsmongo-mwm6l.mongodb.net/allapps";
+
 
 
 // this function will connect db and based on API send response
